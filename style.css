@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200..700&family=Playwrite+IN:wght@100..400&display=swap');
+:root{
+    --font1: "Oswald", serif;
+    --font2: "Playwrite IN", serif;
+    --font3:"Bebas Neue", serif;
+    --bg:#00224D;
+}
+*{margin: 0;
+padding: 0;
+}
+body{
+   
+   display: flex;
+   justify-content: center;
+  
+    box-sizing: border-box;
+    overflow: hidden;
+    background-image: linear-gradient(to right,#00224D,#EEEEEE,#00bff9a4 );
+   
+}
+.w-container{
+    background-color: rgba(255,255,255, 0.25);
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+   align-items: center;
+   justify-items: center;
+   margin-top: 200px;
+   width: 400px;
+   height: 250px;
+   box-shadow: 0px 8px 30px 5px #00c3ff;
+   border-radius: 20px;
+   backdrop-filter: blur(7px);
+ }
+  li{
+    list-style: none;
+    list-style-type: none;
+    margin-top: 30px;
+    font-family: var(--font2);
+    font-size: 30px;
+    color: #070F2B;
+    letter-spacing: 3px;
+    font-weight: 700;
+ }
+ #_c {
+    margin-top: 30px;
+ }
+ .text{
+    font-family: var(--font3);
+    font-size: 50px;
+    padding-left: 5px;
+ }
+ #_h{
+   color: rgb(0, 255, 255);
+  
+   
+ 
+ }
+ #_m{
+   color: #FFD65A;
+   
+   
+ }
+ #_s{
+   color: #A0153E;
+   
+  
+ }
+
