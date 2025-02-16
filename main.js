@@ -8,10 +8,14 @@ function clock(){
     let now = new Date();
 // Set Date use (hi-in for hindi) and (en-us for english)
 let weekday = now.toLocaleString('en-us',{weekday:'short'});
+    
 let month = now.toLocaleString('en-us', {month:'short'})
 let day = now.getDate();
 let year = now.getFullYear();
+
 date.innerHTML = `${weekday} ${day} ${month} ${year}`
+
+
 
 // Time
    let hours = now.getHours().toString().padStart(2,'0');
